@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
     double x_1 = 0.5;
     double x_2 = 1.5;
 
-    while (std::abs(x_1 - x_2) > 10e-5)
+    while (std::abs(x_1 - x_2) > 10e-4)
     {
         x_M = (x_1 + x_2) / 2.0;
 
